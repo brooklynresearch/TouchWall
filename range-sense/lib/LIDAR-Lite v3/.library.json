@@ -1,0 +1,46 @@
+{
+    "description": "Arduino library for LIDAR-Lite v3.", 
+    "repository": {
+        "url": "https://github.com/garmin/LIDARLite_v3_Arduino_Library", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Garmin", 
+            "url": null, 
+            "email": "www.garmin.com"
+        }
+    ], 
+    "keywords": [
+        "sensors"
+    ], 
+    "id": 1186, 
+    "name": "LIDAR-Lite v3", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.0.3", 
+    "homepage": "https://buy.garmin.com/en-US/US/oem/sensors-and-boards/lidar-lite-v3/prod557294.html"
+}
